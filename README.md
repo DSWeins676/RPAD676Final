@@ -1,3 +1,11 @@
+## Introduction
+
+Hello and welcome to my data analysis portfolio page! My name is Daniel Weinstein, and I'm a current student in the Master of Public Administration (MPA) program at SUNY Albany. I entered this program after switching from a career as a pharmaceutical scientist because I wanted to apply my analytical skills and scientific rigor to public-sector issues. Perhaps as no surprise, given my strong mathematical background, as I explored topics through my internships and coursework I gravitated towards opportunities to apply research and data analysis. I took up the Information Technology Management concentration in my MPA program, which funnels strategic thinking, stakeholder management, and data analytics to improve and optimize public organizations' computer systems.
+
+The class "Data Science for the Public Good," which prompted me to build this portfolio, cemented the key distinctions a public-sector IT manager or data analyst must bear in mind compared to their private-sector counterparts. Namely, we are beholden to and measured by our impacts on the public or society as a whole. 
+
+I appreciated this course for its attempts to combine both traditional public administration research and approaches with technical skills for data science and data analytics. To that end, I familiarized myself with Python 
+
 ## Projects
 
 <a href="https://github.com/DSWeins676/RPAD676Final/tree/main/IncomeDriven"> 1. Income Driven: Exploring Relationships Between Vehicles and Household Income in New York State </a>

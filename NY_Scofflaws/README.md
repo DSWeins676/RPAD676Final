@@ -72,3 +72,10 @@ Finally, the dashboard allows the user to view data for New York state (all coun
 ***Click the image to view the live dashboard on Tableau Public***
 
 [![Dashboard Preview](Images/Registration_Scoff_Viz.png)](https://public.tableau.com/views/NYRegistrationScofflaws/NYRegistrationScoffsSuspensions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+&nbsp;
+&nbsp;
+
+## Key Insights/Results
+
+Some trends that invite further investigation emerged from this analysis. As I would expect, New York City boroughs had the highest percentage of vehicles with unclear registrations, since New York City has significantly more parking/toll enforcement locations and measures, as well as a generally lower vehicles/capita. Looking at New York's capital region counties offered a unique contrast. They have a percentage of vehicles with unclear registrations in the mid to high range, but the composition of marks on those registrations is quite different. The counties in the capital region have a majority of scofflaw indicators, while the New York City boroughs are predominantly comprised of suspensions. It's beyond the scope of this dashboard to assess and diagnose the reason for this disparity, but it does perhaps invite further investigation into why these two regions seem to employ different enforcement mechanisms. Are there differences in rules that are enforced, or in the severity and degrees of enforcement? Are such differences purposeful, coincidental, or determined by some other factor, such as limitations of smaller county governments compared to New York City? Such research, applied to different regions, may reveal differences in local administrative approaches/priorities and comparisons/contrasts between law enforcement activities in disparate parts of the state. 

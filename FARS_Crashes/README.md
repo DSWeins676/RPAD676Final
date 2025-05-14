@@ -28,6 +28,10 @@ See the following SQL code used to create the FARS_Crashes schema and tables, as
 
 [Load Data from csv into Tables](https://github.com/DSWeins676/RPAD676Final/blob/main/FARS_Crashes/Queries/Load_Data.sql)
 
+For a summary of the tables, their fields, and the relationships between tables, see the following Entity Relationship Diagram:
+
+![ER Diagram](https://github.com/DSWeins676/RPAD676Final/blob/main/FARS_Crashes/ER_Diagram/FARS_Crashes%20Entity%20Relationship%20Diagram.jpg)
+
 ## Methods
 
 Using a series of SQL queries to the FARS_Crashes database, I analyzed trends about non-motorist fatalities as well as the drivers involved in such incidents. This includes the following, each linking to the corresponding SQL query. Below each is the result table from executing that query.

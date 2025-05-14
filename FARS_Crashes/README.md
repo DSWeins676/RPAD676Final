@@ -8,13 +8,19 @@ The killing of pedestrians, cyclists, and other users of micromobility devices b
 
 I downloaded raw data from the FARS FTP site for the year 2023 in .csv format. For the the ncsa_makes and restraints tables, their numerical codes and respective names were taken from the text of the FARS Analytical User's Manual. For counties, FARS utilizes the General Service Administration's (GSA) Geographic Location Codes (GLCs). The counties table utilizes data taken directly from the GSA's dataset of GLCs in the United States. 
 
+&nbsp;
+&nbsp;
+
 [FARS Data Access](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars)
 
 [FARS Analytical User's Manual](https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813706)
 
 [GSA Geographic Locator Codes](https://www.gsa.gov/reference/geographic-locator-codes/glcs-for-the-us-and-us-territories)
 
-LINK TO ER DIAGRAM:
+&nbsp;
+&nbsp;
+
+
 
 Using MySQL, I created tables and imported data from the .csv files into them. Only a small selection of data fields were kept from the original files.
 
@@ -22,11 +28,17 @@ Since these datasets were likely extracted from a relational database, certain m
 
 As for database design, I created unique ID columns for the crashes, vehicles, and people tables (crash_id, vehicle_id, and person_id, respectively). However, these unique IDs do not associate entities between tables. Composites of st_case, veh_no, and per_no connect crashes, vehicles, and people. Adding primary/foreign key references among these, however, presented issues. The foreign key associating a person to a vehicle is a composite of st_case and veh_no (a person was in vehicle 1, 2, or 3 of crash 10001, 10002, or 10003). However, a person can also have veh_no = 0, indicating they were not in a vehicle. However, no entry in the vehicles table will ever have veh_no = 0, hence adding a foreign key constraint referencing the vehicles table in the people table would invalidate those entries. For the purposes of this analysis, and since there is not an intention to add/delete further entities in this, I avoided adding foreign key constraints to the tables.
 
+&nbsp;
+&nbsp;
+
 See the following SQL code used to create the FARS_Crashes schema and tables, as well as to upload the data:
 
 [Create FARS_Crashes Schema and Tabkes](https://github.com/DSWeins676/RPAD676Final/blob/main/FARS_Crashes/Queries/Create_Tables.sql)
 
 [Load Data from csv into Tables](https://github.com/DSWeins676/RPAD676Final/blob/main/FARS_Crashes/Queries/Load_Data.sql)
+
+&nbsp;
+&nbsp;
 
 For a summary of the tables, their fields, and the relationships between tables, see the following Entity Relationship Diagram:
 

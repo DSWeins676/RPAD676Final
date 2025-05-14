@@ -1,4 +1,4 @@
-# Non-motorist fatalities in vehicle crashes
+# Fast Lane, Fragile Lives: Evaluating Risk Factors For Non-Motorists Killed by Vehicles.
 
 ## Objectives
 
